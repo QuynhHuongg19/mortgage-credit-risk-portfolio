@@ -1,0 +1,12 @@
+vintage,pd12,pd24,pd36,pd36_status,pd36_primary_comparison,maturity_note
+2016,0.0015010015681902,0.0066261205078136,0.0099497294946557,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2017,0.0037627245627528,0.0081293358150572,0.0322683369328555,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2018,0.0020024249417575,0.0249228873956521,0.0464624038363219,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2019,0.0220691416857354,0.0457567730001285,0.0491843427043635,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2020,0.0123085295943846,0.0160967277094677,0.018221789193888,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2021,0.0035829975399138,0.0090528107140936,0.013481385658601,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2022,0.0068748430696393,0.0184000332539173,0.0298508547746026,FULLY_COMPARABLE,True,Included in primary 36-month vintage comparison.
+2023,0.0062735151348875,0.0178372928800105,0.0277132009789681,MATURITY_LIMITED,False,36-month estimate is maturity-limited and should not be interpreted as fully comparable with mature vintages.
+2024,0.0061540471601853,0.017504921067556,0.017504921067556,MATURITY_LIMITED,False,36-month estimate is maturity-limited and should not be interpreted as fully comparable with mature vintages.
+2025,0.0036251526266327,0.0041472158750703,0.0041472158750703,MATURITY_LIMITED,False,36-month estimate is maturity-limited and should not be interpreted as fully comparable with mature vintages.
+2026,0.0,0.0,0.0,MATURITY_LIMITED,False,36-month estimate is maturity-limited and should not be interpreted as fully comparable with mature vintages.
