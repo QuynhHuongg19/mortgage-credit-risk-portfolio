@@ -1,0 +1,8 @@
+metric,value
+Total survival cohort,512490
+Default events,16554
+Prepayment events,206836
+Censored observations,289100
+Zero-duration observations,8090
+KM horizons evaluated,4
+Naive KM incidence >= AJ Default CIF at all reported horizons,True
