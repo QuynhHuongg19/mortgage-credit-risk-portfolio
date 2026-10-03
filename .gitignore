@@ -1,0 +1,46 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Raw Freddie Mac data
+data/raw/
+*.zip
+
+# Generated / processed datasets
+data/processed/
+data/model/
+data/temp/
+*.parquet
+*.feather
+
+# Model artifacts
+models/
+artifacts/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local production results
+results/production/
+results/current.json
