@@ -1,46 +1,100 @@
-# Python virtual environment
+# ============================================================
+# MORTGAGE CREDIT RISK PORTFOLIO
+# Git Ignore Configuration
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Python virtual environments
+# ------------------------------------------------------------
+
 .venv/
 venv/
 env/
 
-# Python cache
+
+# ------------------------------------------------------------
+# Python cache and test cache
+# ------------------------------------------------------------
+
 __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# IDE / OS
+
+# ------------------------------------------------------------
+# IDE and operating system files
+# ------------------------------------------------------------
+
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Environment variables / secrets
+
+# ------------------------------------------------------------
+# Environment variables and secrets
+# ------------------------------------------------------------
+
 .env
 .env.*
 
-# Raw Freddie Mac data
+.streamlit/secrets.toml
+
+
+# ------------------------------------------------------------
+# Freddie Mac raw data
+# Raw loan-level datasets must not be committed to Git
+# ------------------------------------------------------------
+
 data/raw/
+
+
+# Ignore ZIP files by default
 *.zip
 
-# Generated / processed datasets
+
+# ------------------------------------------------------------
+# Official Freddie Mac reference files
+# These two small ZIP files document the dataset schema
+# ------------------------------------------------------------
+
+!docs/references/file_headers_july_2026.zip
+!docs/references/release-47-sample-files.zip
+
+
+# ------------------------------------------------------------
+# Generated and processed datasets
+# ------------------------------------------------------------
+
 data/processed/
 data/model/
 data/temp/
+
 *.parquet
 *.feather
 
+
+# ------------------------------------------------------------
 # Model artifacts
+# ------------------------------------------------------------
+
 models/
 artifacts/
 
+
+# ------------------------------------------------------------
+# Local production results
+# ------------------------------------------------------------
+
+results/production/
+results/current.json
+
+
+# ------------------------------------------------------------
 # Logs and temporary files
+# ------------------------------------------------------------
+
 *.log
 *.tmp
 *.temp
-
-# Streamlit secrets
-.streamlit/secrets.toml
-
-# Local production results
-results/production/
-results/current.json
