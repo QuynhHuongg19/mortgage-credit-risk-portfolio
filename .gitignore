@@ -98,3 +98,4 @@ results/current.json
 *.log
 *.tmp
 *.temp
+outputs/loan_shock_exposure.csv
