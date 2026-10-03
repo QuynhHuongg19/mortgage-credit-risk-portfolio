@@ -1,0 +1,17 @@
+Mortgage Credit Risk Portfolio
+R Environment Requirements
+
+R version: 4.6.1
+
+Required package:
+cmprsk==2.2-12
+
+Purpose:
+The cmprsk package is used in scripts/15_fine_gray_default_risk.R
+to estimate the Fine-Gray subdistribution hazard model for Default,
+with Voluntary Prepayment treated as a competing event.
+
+Note:
+The Fine-Gray model is estimated on the full survival cohort.
+The current implementation reports point estimates only
+(subdistribution hazard ratios); variance estimation is disabled.

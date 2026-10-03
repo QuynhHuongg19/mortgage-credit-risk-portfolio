@@ -1,0 +1,8 @@
+# Mortgage Credit Risk Portfolio
+# Python dependencies
+
+numpy==2.5.3
+pandas==2.3.3
+lifelines==0.30.3
+streamlit==1.65.0
+plotly==7.1.0
