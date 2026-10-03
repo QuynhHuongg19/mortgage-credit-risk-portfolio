@@ -1,0 +1,6 @@
+"variable","label","coefficient","subdistribution_hazard_ratio","inference_available"
+"fico_10","FICO (+10 points)",-0.140904651886347,0.868572124463224,FALSE
+"ltv_10","Original LTV (+10 percentage points)",0.0707148507774022,1.07327513865874,FALSE
+"dti_10","Original DTI (+10 percentage points)",0.00219549942226053,1.00219791129588,FALSE
+"interest_rate_1pct","Original interest rate (+1 percentage point)",0.0290009136095614,1.02942553496771,FALSE
+"loan_term_12m","Original loan term (+12 months)",0.0326118963605085,1.03314949234434,FALSE

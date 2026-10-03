@@ -1,0 +1,22 @@
+"metric","value"
+"Total survival cohort",512490
+"Complete-case Fine-Gray sample",512490
+"Excluded from complete-case model",0
+"Default events",16554
+"Prepayment events",206836
+"Censored observations",289100
+"Zero-duration observations adjusted to 0.5",8090
+"Missing duration",0
+"Missing event code",0
+"Missing FICO",0
+"Missing original LTV",0
+"Missing original DTI",0
+"Missing original interest rate",0
+"Missing original loan term",0
+"FICO outside 300-850",121
+"LTV outside 0-200",7
+"DTI outside 0-100",4892
+"Interest rate nonpositive",0
+"Loan term nonpositive",0
+"Fine-Gray variance estimation",0
+"Fine-Gray runtime seconds",64.23
