@@ -1,0 +1,17 @@
+metric,value
+Total survival cohort,512490
+Complete-case Cox sample,512490
+Excluded from complete-case model,0
+Default events in Cox sample,16554
+Non-default observations in Cox sample,495936
+Zero-duration observations adjusted to 0.5,8090
+Missing fico,0
+Missing original_ltv,0
+Missing original_dti,0
+Missing original_interest_rate,0
+Missing original_loan_term,0
+fico_outside_300_850,121
+ltv_outside_0_200,7
+dti_outside_0_100,4892
+interest_rate_nonpositive,0
+loan_term_nonpositive,0
